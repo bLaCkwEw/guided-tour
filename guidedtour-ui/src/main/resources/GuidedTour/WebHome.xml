@@ -31,38 +31,34 @@
   <author>xwiki:XWiki.Admin</author>
   <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <version>1.1</version>
-  <title>GuidedTour</title>
+  <title>Guided Tour</title>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>true</hidden>
-  <content>{{liveData
-  id="tourClassList1"
-  properties="doc.title,isActive,_actions"
-  source="liveTable"
-  sourceParameters="className=XWiki.GuidedTour.TourClass&amp;translationPrefix=guidedtour.tours.livedata."
-  meta='{"propertyDescriptors":[{"id":"isActive","filterable":true,"sortable":true},{"id":"_actions","displayer":{"id":"actions","actions":["edit","delete","consoleLog"]}}]}'
-  layouts="table"}}
-{
-  "actions": {
-    "edit": {
-      "icon": "pencil",
-      "label": "Edit",
-      "action": "edit"
-    },
-    "delete": {
-      "icon": "trash",
-      "label": "Delete Space",
-      "action": "delete",
-      "confirm": "Are you sure you want to delete this entire space?"
-    },
-    "consoleLog": {
-      "icon": "console",
-      "label": "Log Tour",
-      "action": "custom",
-      "onclick": "console.log('Tour clicked:', this.row.data); return false;"
-    }
-  }
-}
-{{/liveData}}</content>
+  <content>{{translation key="guidedtour.home.intro"/}}
+
+= {{translation key="guidedtour.home.manage.title"/}} =
+
+{{translation key="guidedtour.home.manage.description"/}}
+
+[[{{translation key="guidedtour.home.manage.linkLabel"/}}&gt;&gt;GuidedTour.Tours.WebHome]]
+
+= {{translation key="guidedtour.home.create.title"/}} =
+
+{{translation key="guidedtour.home.create.description"/}}
+
+= {{translation key="guidedtour.home.display.title"/}} =
+
+{{translation key="guidedtour.home.display.description"/}}
+
+= {{translation key="guidedtour.home.bundled.title"/}} =
+
+{{translation key="guidedtour.home.bundled.description"/}}
+
+= {{translation key="guidedtour.home.learn.title"/}} =
+
+{{translation key="guidedtour.home.learn.description"/}}
+
+[[{{translation key="guidedtour.home.learn.linkLabel"/}}&gt;&gt;https://www.xwiki.org/xwiki/bin/view/documentation/extensions/user/guided-tour/]]</content>
 </xwikidoc>
