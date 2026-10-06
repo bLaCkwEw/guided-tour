@@ -112,19 +112,23 @@ guidedtour.modal.task.add.inProgress=Creating new task...
 
 ## Home page
 
-guidedtour.home.intro=The Guided Tour application helps you onboard new users with interactive, step-by-step tours. Active tours are listed in the guided tours widget, and each tour is made of tasks and steps that guide the user through the wiki.
-guidedtour.home.manage.title=View and manage tours
-guidedtour.home.manage.description=All existing tours are listed on the Tours page, where you can view, edit and delete them.
-guidedtour.home.manage.linkLabel=Go to the Tours page
-guidedtour.home.create.title=Create a new tour
-guidedtour.home.create.description=Create a new tour page from the Tour template, then add tasks and steps from the tour sheet. Only tours marked as active are shown to users in the guided tours widget.
-guidedtour.home.display.title=How tours are displayed
-guidedtour.home.display.description=Active tours appear in the guided tours widget in the page header. Users can start, resume and track their progress task by task, directly where the actions happen.
-guidedtour.home.bundled.title=Included tours
-guidedtour.home.bundled.description=This wiki ships with a Getting Started tour to showcase what guided tours can do. Feel free to explore it, adapt it, or disable it from the Tours page.
-guidedtour.home.learn.title=Learn more
-guidedtour.home.learn.description=Read the full documentation to learn how to write effective tours, target pages and elements, and organize tasks.
-guidedtour.home.learn.linkLabel=Guided Tour documentation</content>
+guidedtour.home.howItWorks.title=How guided tours work
+guidedtour.home.howItWorks.intro=Walk new users through key pages with on-screen tips. A tour holds tasks, and each task holds the steps shown on the page.
+guidedtour.home.create.button=Create Tour
+guidedtour.home.create.buttonTitle=Create a new tour
+guidedtour.home.manage.button=Manage Tours
+guidedtour.home.manage.buttonTitle=List, edit, or delete tours.
+guidedtour.home.manage.helper.none=No active tours yet.
+guidedtour.home.manage.helper.noneWithDisabled=No active tours yet. Disabled tours are still listed under Manage Tours.
+guidedtour.home.manage.helper.one=1 active tour.
+guidedtour.home.manage.helper.many={0} active tours.
+guidedtour.home.howItWorks.manage=Open {0} to view, edit, or delete a tour.
+guidedtour.home.howItWorks.sample=New here? Run the {0}, then adapt it for your wiki.
+guidedtour.home.howItWorks.sampleLinkLabel=Getting Started tour
+guidedtour.home.docs=The {0} explains how to point steps at pages and page elements, and bundle them into tasks.
+guidedtour.home.docs.linkLabel=Guided Tour documentation
+guidedtour.home.docs.linkAriaLabel=Guided Tour documentation (opens in a new tab)
+</content>
   <object>
     <name>GuidedTour.Code.Translations</name>
     <number>0</number>
